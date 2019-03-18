@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4be56e-d956-4cb1-ba47-f849cd9a0ccc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,23 +33,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -91,8 +94,8 @@
         <option value="$PROJECT_DIR$/Junit/src/test/java/com/daisihao/controller/HelloControllerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/SpringApplication.java" />
-        <option value="$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java" />
         <option value="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java" />
+        <option value="$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -178,7 +181,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552891847844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552892207063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,7 +297,7 @@
       <updated>1552871066032</updated>
       <workItem from="1552871071302" duration="78000" />
       <workItem from="1552871214585" duration="8723000" />
-      <workItem from="1552889078759" duration="1077000" />
+      <workItem from="1552889078759" duration="1402000" />
     </task>
     <servers />
   </component>
@@ -331,13 +334,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9878000" />
+    <option name="totallyTimeSpent" value="10203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="513" y="23" width="876" height="871" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34532374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34532374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,7 +350,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62388724" visible="true" weight="0.53016686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62388724" visible="true" weight="0.53016686" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925816" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,24 +486,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
