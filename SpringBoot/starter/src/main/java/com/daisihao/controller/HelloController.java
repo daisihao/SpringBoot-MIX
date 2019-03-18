@@ -12,6 +12,7 @@ public class HelloController {
     @RequestMapping("/")
     public String hello() {
         logger.info("=======输出INFO信息=======");
-        return "hello";
+        return "hello3";
     }
 }
+/**/
