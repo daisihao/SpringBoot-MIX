@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4be56e-d956-4cb1-ba47-f849cd9a0ccc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Junit/src/main/java/com.daisihao.controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -180,7 +178,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552891749646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552891847844" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,7 +294,7 @@
       <updated>1552871066032</updated>
       <workItem from="1552871071302" duration="78000" />
       <workItem from="1552871214585" duration="8723000" />
-      <workItem from="1552889078759" duration="950000" />
+      <workItem from="1552889078759" duration="1077000" />
     </task>
     <servers />
   </component>
@@ -333,7 +331,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9751000" />
+    <option name="totallyTimeSpent" value="9878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="513" y="23" width="876" height="871" extended-state="0" />
@@ -498,7 +496,7 @@
     <entry file="file://$PROJECT_DIR$/Junit/src/main/java/com/daisihao/app/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
