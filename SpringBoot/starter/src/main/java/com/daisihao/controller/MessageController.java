@@ -11,6 +11,8 @@ import java.nio.charset.Charset;
 @Controller
 public class MessageController {
     //自定义消息转换器
+    //SpringBoot默认配置了消息转换器
+    //默认情况下是不需要自己配置的
     @Bean
     public StringHttpMessageConverter stringHttpMessageConverter(){
         StringHttpMessageConverter converter = new StringHttpMessageConverter(Charset.forName("ISO-8859-1"));
