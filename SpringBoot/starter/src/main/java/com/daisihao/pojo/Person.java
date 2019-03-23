@@ -1,10 +1,17 @@
 package com.daisihao.pojo;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
+import java.util.Date;
+
 public class Person {
 
-    public int id;
-    public String name;
-    public String sex;
+    private int id;
+    private String name;
+    private String sex;
+
+    @JSONField(format = "yyyy-MM-dd")
+    private Date date;
 
     public int getId() {
         return id;
@@ -28,6 +35,14 @@ public class Person {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     @Override

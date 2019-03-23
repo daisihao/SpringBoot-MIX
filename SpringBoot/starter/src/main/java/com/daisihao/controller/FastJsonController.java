@@ -6,6 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Date;
+
 @Controller
 public class FastJsonController {
     @RequestMapping("/fastjson")
@@ -15,6 +17,7 @@ public class FastJsonController {
         person.setId(11);
         person.setName("代思豪");
         person.setSex("男");
+        person.setDate(new Date());
         return person;
     }
 }
