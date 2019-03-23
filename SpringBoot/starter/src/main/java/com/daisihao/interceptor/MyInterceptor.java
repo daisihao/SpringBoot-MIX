@@ -17,7 +17,7 @@ public class MyInterceptor extends WebMvcConfigurerAdapter {
         HandlerInterceptor interceptor = new HandlerInterceptor() {
             @Override
             public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-                System.out.println("自定义拦截器");
+                System.out.println("自定义拦截器。。。。。。");
                 return true;
             }
 
