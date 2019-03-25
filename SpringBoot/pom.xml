@@ -10,6 +10,7 @@
     <modules>
         <module>Junit</module>
         <module>starter</module>
+        <module>JSP</module>
     </modules>
     <packaging>pom</packaging>
 
