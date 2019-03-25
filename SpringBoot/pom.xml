@@ -11,6 +11,7 @@
         <module>Junit</module>
         <module>starter</module>
         <module>JSP</module>
+        <module>Freemarker</module>
     </modules>
     <packaging>pom</packaging>
 
