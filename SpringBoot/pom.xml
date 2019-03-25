@@ -12,6 +12,7 @@
         <module>starter</module>
         <module>JSP</module>
         <module>Freemarker</module>
+        <module>Thymeleaf</module>
     </modules>
     <packaging>pom</packaging>
 
