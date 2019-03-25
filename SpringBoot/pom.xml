@@ -13,6 +13,7 @@
         <module>JSP</module>
         <module>Freemarker</module>
         <module>Thymeleaf</module>
+        <module>QuartZ</module>
     </modules>
     <packaging>pom</packaging>
 
