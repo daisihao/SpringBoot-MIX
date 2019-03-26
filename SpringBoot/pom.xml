@@ -15,6 +15,7 @@
         <module>Thymeleaf</module>
         <module>QuartZ</module>
         <module>JdbcTemplate</module>
+        <module>MybatisXml</module>
     </modules>
     <packaging>pom</packaging>
 
