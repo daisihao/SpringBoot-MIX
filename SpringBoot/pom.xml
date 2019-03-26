@@ -16,6 +16,7 @@
         <module>QuartZ</module>
         <module>JdbcTemplate</module>
         <module>MybatisXml</module>
+        <module>MybatisAnnotation</module>
     </modules>
     <packaging>pom</packaging>
 

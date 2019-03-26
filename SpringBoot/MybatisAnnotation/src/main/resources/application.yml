@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    name: qianfeng
+    url: jdbc:mysql://127.0.0.1:3306/qianfeng
+    username: daisihao
+    password: daisihao
+    driver-class-name: com.mysql.jdbc.Driver
