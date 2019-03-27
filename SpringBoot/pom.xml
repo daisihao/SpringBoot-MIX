@@ -18,6 +18,7 @@
         <module>MybatisXml</module>
         <module>MybatisAnnotation</module>
         <module>DynamicDataSource</module>
+        <module>JPA</module>
     </modules>
     <packaging>pom</packaging>
 
