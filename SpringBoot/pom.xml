@@ -17,6 +17,7 @@
         <module>JdbcTemplate</module>
         <module>MybatisXml</module>
         <module>MybatisAnnotation</module>
+        <module>DynamicDataSource</module>
     </modules>
     <packaging>pom</packaging>
 
