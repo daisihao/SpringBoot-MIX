@@ -58,8 +58,6 @@ public class EmailServiceImpl implements EmailService {
             helper.setTo(sendTo);
             helper.setSubject(title);
             helper.setText(content);
-
-            FileSystemResource rs = new FileSystemResource(file);
             helper.addAttachment("附件",file);
         } catch (MessagingException e) {
             e.printStackTrace();
@@ -68,15 +66,13 @@ public class EmailServiceImpl implements EmailService {
     }
 
     @Override
-    public void sendTemplateEmail(String sendTo, String title, String content,String info) {
+    public void sendTemplateEmail(String sendTo, String title,String info) {
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         try {
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage,true);
             helper.setFrom(emailConfig.getEmailFrom());
             helper.setTo(sendTo);
             helper.setSubject(title);
-            helper.setText(content);
-
             //封装模板需要使用的数据
             Map<String,Object> model = new HashMap<>();
             model.put("username","代思豪哈哈哈");

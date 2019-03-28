@@ -6,7 +6,6 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 
@@ -28,7 +27,7 @@ public class EmailController {
     public String sendAttachmentEmail() {
         File file = null;
         try {
-            file = ResourceUtils.getFile("classpath:file/attachement.txt");
+            file = ResourceUtils.getFile("classpath:file/attachment.txt");
             emailService.sendAttachmentEmail("461644932@qq.com", "测试标题", "测试内容", file);
         } catch (FileNotFoundException e) {
         }
@@ -37,7 +36,7 @@ public class EmailController {
 
     @RequestMapping("/sendTemplate")
     public String sendTemplate() {
-        emailService.sendTemplateEmail("461644932@qq.com", "测试标题", "测试内容","template.html");
+        emailService.sendTemplateEmail("461644932@qq.com", "测试标题","template.html");
         return "success";
     }
 
