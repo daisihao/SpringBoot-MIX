@@ -28,7 +28,7 @@ public class EmailController {
     public String sendAttachmentEmail() {
         File file = null;
         try {
-            file = ResourceUtils.getFile("classpath:file/testFile.txt");
+            file = ResourceUtils.getFile("classpath:file/attachement.txt");
             emailService.sendAttachmentEmail("461644932@qq.com", "测试标题", "测试内容", file);
         } catch (FileNotFoundException e) {
         }
@@ -37,7 +37,7 @@ public class EmailController {
 
     @RequestMapping("/sendTemplate")
     public String sendTemplate() {
-        emailService.sendTemplateEmail("", "", "");
+        emailService.sendTemplateEmail("461644932@qq.com", "测试标题", "测试内容","template.html");
         return "success";
     }
 
