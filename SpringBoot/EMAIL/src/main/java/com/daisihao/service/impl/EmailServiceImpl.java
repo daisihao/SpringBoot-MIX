@@ -3,9 +3,15 @@ package com.daisihao.service.impl;
 import com.daisihao.configuration.EmailConfig;
 import com.daisihao.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
+
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+import java.io.File;
 
 @Service
 public class EmailServiceImpl implements EmailService {
@@ -32,8 +38,21 @@ public class EmailServiceImpl implements EmailService {
     }
 
     @Override
-    public void sendAttachmentEmail(String sendTo, String title, String content) {
+    public void sendAttachmentEmail(String sendTo, String title, String content, File file) {
+        MimeMessage mimeMessage = mailSender.createMimeMessage();
+        try {
+            MimeMessageHelper helper = new MimeMessageHelper(mimeMessage,true);
+            helper.setFrom(emailConfig.getEmailFrom());
+            helper.setTo(sendTo);
+            helper.setSubject(title);
+            helper.setText(content);
 
+            FileSystemResource rs = new FileSystemResource(file);
+            helper.addAttachment("附件",file);
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
+        mailSender.send(mimeMessage);
     }
 
     @Override
