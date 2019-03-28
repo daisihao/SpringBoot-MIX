@@ -19,6 +19,7 @@
         <module>MybatisAnnotation</module>
         <module>DynamicDataSource</module>
         <module>JPA</module>
+        <module>EMAIL</module>
     </modules>
     <packaging>pom</packaging>
 
