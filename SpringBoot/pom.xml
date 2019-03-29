@@ -20,6 +20,7 @@
         <module>DynamicDataSource</module>
         <module>JPA</module>
         <module>EMAIL</module>
+        <module>UploadFiles</module>
     </modules>
     <packaging>pom</packaging>
 
